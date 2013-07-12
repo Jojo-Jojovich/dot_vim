@@ -1,5 +1,5 @@
 " =======================================
-" Who: Jared Cugno based on Vim of Champions by Jeremy Mack
+" Who: Eugene Lee based on Vim of Champions by Jeremy Mack
 " What: .vimrc
 " Version: 1.0 (this may never change because who versions dot files,
 " honestly)
@@ -43,7 +43,7 @@ Bundle 'tpope/vim-repeat'
 Bundle 'kien/rainbow_parentheses.vim'
 
 " Color Schemes
-Bundle 'jcugno/all-colors-pack'
+Bundle 'Jojo-Jojovich/all-colors-pack'
 Bundle 'Lokaltog/vim-distinguished'
 Bundle 'nanotech/jellybeans.vim'
 Bundle 'twilight'
@@ -57,19 +57,19 @@ if executable('ack-grep')
 elseif executable('ack')
   Bundle 'mileszs/ack.vim'
 endif
-Bundle 'jcugno/vim-phpunit'
 Bundle 'mattn/zencoding-vim'
 Bundle 'Raimondi/delimitMate'
 Bundle 'godlygeek/tabular'
 
 " Automatic Helpers
+Bundle 'xolox/vim-misc'
 Bundle 'xolox/vim-session'
 Bundle 'scrooloose/syntastic'
 
 " Snippets & AutoComplete
-Bundle 'Shougo/neocomplcache'
+Bundle 'Jojo-Jojovich/neocomplcache'
 Bundle "garbas/vim-snipmate"
-Bundle 'honza/snipmate-snippets'
+Bundle 'honza/vim-snippets'
 
 " Language Additions
 " PHP
@@ -94,7 +94,6 @@ if executable('ctags')
 endif
 Bundle 'tpope/vim-markdown'
 Bundle 'spf13/vim-preview'
-
 
 " Debugging
 Bundle 'DBGp-Remote-Debugger-Interface'
@@ -479,15 +478,6 @@ let g:neocomplcache_min_syntax_length = 3
 imap <expr><TAB> pumvisible() ? "\<C-n>" : "\<TAB>"
 let g:neocomplcache_enable_auto_select = 0
 
-
-" ---------------
-"  PHP Unit
-" ---------------
-let g:phpunit_srcroot = '/'
-let g:phpunit_testroot = 'tests'
-let g:phpunit_tests = g:phpunit_testroot
-let g:phpunit_params = '--stop-on-failure --configuration tests/phpunit.xml'
-
 " ---------------
 " Syntastic
 " ---------------
@@ -644,8 +634,7 @@ nmap <Leader>bc :BundleClean<CR>
 " ---------------
 " snipMate
 " ---------------
-let g:snips_author = "Jared Cugno"
-let g:snips_trigger_key='<c-space>'
+let g:snips_author = "Eugene Lee"
 
 " ---------------
 " AutoCloseTag
@@ -843,3 +832,4 @@ nmap <silent> <leader>z :QuickSpellingFix<CR>
 
 " }
 
+:let g:session_autosave = 'no'
