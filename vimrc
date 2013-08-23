@@ -95,9 +95,6 @@ endif
 Bundle 'tpope/vim-markdown'
 Bundle 'spf13/vim-preview'
 
-" Debugging
-Bundle 'DBGp-Remote-Debugger-Interface'
-
 " Retired but may be useful in the future
 " Bundle 'L9'
 " Bundle 'tpope/vim-fugitive'
