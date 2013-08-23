@@ -185,7 +185,7 @@ set nu  " Line numbers on
 set nowrap  " Line wrapping off
 set laststatus=2  " Always show the statusline
 set cmdheight=2
-set relativenumber " I think I like these more still but it may not exist
+" set relativenumber " I think I like these more still but it may not exist
 set linespace=0
 
 " ---------------
