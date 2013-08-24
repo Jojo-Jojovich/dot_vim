@@ -5,7 +5,7 @@
 ## Installation
 
 1. `git clone git@github.com:Jojo-Jojovich/dot_vim.git` in your home folder.
-2. `rm -rf .vim`
+2. `rm -f .vim`
 3. `mv dot_vim .vim`
 4. sym link .vim/vimrc and .vim/gvimrc to your $HOME.
 5. `cd .vim`
