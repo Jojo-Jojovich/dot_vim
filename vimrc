@@ -288,6 +288,14 @@ set complete=.,w,b,u,U
 " Bindings
 " ----------------------------------------
 
+"map <C-v> "*P<CR>
+"imap <C-v> <esc><C-v>
+"vnoremap <C-c> "*y
+nmap <C-v> :set paste<CR>:r !pbpaste<CR>:set nopaste<CR>
+imap <C-v> <Esc>:set paste<CR>:r !pbpaste<CR>:set nopaste<CR>
+nmap <C-c> :.w !pbcopy<CR><CR>
+vmap <C-c> :w !pbcopy<CR><CR>
+
 " Window Movement
 nmap <silent> <C-h> :wincmd h<CR>
 nmap <silent> <C-j> :wincmd j<CR>
