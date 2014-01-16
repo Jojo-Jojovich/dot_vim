@@ -7,11 +7,12 @@
 1. `git clone git@github.com:Jojo-Jojovich/dot_vim.git` in your home folder.
 2. `rm -f .vim`
 3. `mv dot_vim .vim`
-4. `ln -s ~/.vim/vimrc .vimrc`
-5. `cd .vim`
-6. Install [Vundle](https://github.com/gmarik/vundle) with `git clone http://github.com/gmarik/vundle.git bundle/vundle`
-7. Run `vim +BundleInstall +qall` to install the plugins with Vundle.
-8. Enjoy enhanced productivity, increased levitation, reduced watermelon-related accidents, and startling sex appeal.
+4. `rm -rf .vimrc`
+5. `ln -s ~/.vim/vimrc .vimrc`
+6. `cd .vim`
+7. Install [Vundle](https://github.com/gmarik/vundle) with `git clone http://github.com/gmarik/vundle.git bundle/vundle`
+8. Run `vim +BundleInstall +qall` to install the plugins with Vundle.
+9. Enjoy enhanced productivity, increased levitation, reduced watermelon-related accidents, and startling sex appeal.
 
 ## Screenshots
 
