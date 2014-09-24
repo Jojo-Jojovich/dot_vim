@@ -57,7 +57,7 @@ if executable('ack-grep')
 elseif executable('ack')
   Bundle 'mileszs/ack.vim'
 endif
-Bundle 'mattn/zencoding-vim'
+Bundle 'mattn/emmet-vim'
 Bundle 'Raimondi/delimitMate'
 Bundle 'godlygeek/tabular'
 
