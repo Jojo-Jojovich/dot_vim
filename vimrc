@@ -834,3 +834,5 @@ nmap <silent> <leader>z :QuickSpellingFix<CR>
 
 :let g:session_autosave = 'no'
 
+nnoremap <C-a> 0
+nnoremap <C-e> $
