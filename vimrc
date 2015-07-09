@@ -489,7 +489,7 @@ let g:neocomplcache_enable_auto_select = 0
 let g:syntastic_enable_signs=1
 let g:syntastic_auto_loc_list=1
 let g:syntastic_auto_jump=0
-let g:syntastic_javascript_checker='jshint'
+" let g:syntastic_javascript_checker='jshint'
 
 set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
