@@ -152,7 +152,7 @@ endif
 " ---------------
 set background=dark
 set t_Co=256 " Ensure we have full spectrum of colors
-set colorcolumn=80
+"set colorcolumn=80
 
 " Conditionally Set colorscheme
 if has('unix') && !has('gui_macvim')
