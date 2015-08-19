@@ -830,6 +830,8 @@ nmap <silent> <leader>z :QuickSpellingFix<CR>
 	" ZSH
 	au BufRead,BufNewFile .zsh_rc,.functions,.commonrc set ft=zsh
 
+	" Python
+	let g:syntastic_python_python_exec = '/usr/bin/python3'
 " }
 
 :let g:session_autosave = 'no'
